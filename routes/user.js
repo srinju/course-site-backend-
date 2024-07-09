@@ -2,7 +2,7 @@ const { Router } = require("express");
 const router = Router();
 const userMiddleware = require("../middleware/user");
 const { user, course } = require("../db");
-const { json } = require("stream/consumers");
+
 
 //user routes>>
 router.post('/signup', function(req,res){
